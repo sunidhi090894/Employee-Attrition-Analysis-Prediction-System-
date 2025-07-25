@@ -1,0 +1,42 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+*.tsv
+*.parquet
+*.h5
+*.db
+*.sqlite
+
+# Ignore virtual environments
+venv/
+.env/
+.envrc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore output folders
+output/
+results/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore notebook output
+*.nb.html
